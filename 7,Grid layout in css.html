@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid layout workout</title>
+</head>
+<link rel="stylesheet" href="7,Grid layout styling.css">
+<body>
+    <h1 style="text-align: center; background: PINK;" >GRID LAYOUT STYLING</h1>
+    <hr>
+    <h2 class="heading">INTRODUCTION ABOUT GRID</h2>
+    <div class="gridcontainer1">
+        
+        <div class="griditem part1">What is means by Gridlayout in css</div>
+        <div class="griditem part2">In CSS, a Grid box (or CSS Grid Layout) is a powerful layout system used to design web pages using rows and columns easily.
+
+        </div>
+        <div class="griditem part3">what is grid container </div>
+        <div class="griditem part4">the child elements inside the container</div>   
+
+        <div class="griditem part5">the parent element with display: grid;</div>
+        <div class="griditem part6">What is grid item</div>
+        
+    </div>
+    <hr>
+     <h2 class="heading">KEY PROPERTIES</h2>
+    <div class="gridcontainer2">
+    <div class="grid section1">Disply:grid;</div>
+    <div class="grid section1">grid-template-columns;</div>
+    <div class="grid section1">grid-template-rows;</div>
+    <div class="grid section1">Gap or grid gap</div>
+    <div class="grid section1">justify-items</div>
+    <div class="grid section1">align-items;</div>
+    <div class="grid section2">Turns the element into a grid container</div>
+    <div class="grid section2">Defines number and width of columns</div>
+    <div class="grid section2">Defines number and height of rows</div>
+    <div class="grid section2">Adds space between rows and columns</div>
+    <div class="grid section2">Aligns items horizontally</div>
+    <div class="grid section2">Aligns items vertically</div>
+    </div>
+    <hr>
+    <h2>EXAMPLES OF USEING THOSE PROPERTIES</h2>
+    <h3>1. grid-template-columns & grid-template-rows</h3>
+    <p> grid-template-columns- Sets how many columns and their width. Example: grid-template-columns: 100px 100px 100px; (3 columns of 100px each)<br>
+grid-template-row - Sets how many rows and their height. Example: grid-template-rows: 100px 200px;</p>
+    <dis id="gridcontainer">
+        <dis id="gridpart1">PINK</dis>
+        <dis id="gridpart1">GREEN </dis>
+        <dis id="gridpart1">BLUE</dis>
+        <dis id="gridpart1">RED</dis>
+        <dis id="gridpart1">YELLOW</dis>
+    </dis>
+    <h3>2.Grid-row start and end & Grid-column start and end</h3>
+    <p><b></b>grid-row-start</b>-	The line number where the item starts vertically (top to bottom).ex:grid-row-start: 1;
+<b>grid-row-end</b>	-The line number where the item ends vertically. ex:grid-row-end: 3;<br>
+<strong>grid-column-start	</strong>The line number where the item starts horizontally (left to right).ex:	grid-column-start: 2;
+<strong> grid-column-end</strong>	The line number where the item ends horizontally.	grid-column-end: 4;</p>
+<br>
+<div id="gridcontainer">
+    <div class="gridsection1_ fun1">APPLE</div>
+    <div class="gridsection1_ fun2">BANANA</div>
+    <div class="gridsection1_ fun3">ORANGE</div>
+    <div class="gridsection1_ fun4">GRAPES</div>
+    <div class="gridsection1_ fun5">PROMEGRANATE</div>
+    <div class="gridsection1_ fun6">LICHI</div>
+    </div>
+
+    <h3>3. grid-auto-flow</h3>
+    <P>grid-auto-flow controls how the grid automatically places items that are not given a specific position (like grid-row or grid-column).
+
+It decides the direction in which the grid fills items.</P>
+  <div class="grid-flow">
+    <div class="grid-item">BOX1</div>
+    <div class="grid-item">BOX2</div>
+    <div class="grid-item">BOX3</div>
+    <div class="grid-item">BOX4</div>
+  </div>
+
+  <h3>4. gap (row-gap & column-gap)</h3>
+  <p>gap is the property used to give space between grid items — like a margin inside the grid layout.<br>
+It doesn’t add space outside the grid, only between the boxes inside it.
+
+Before, people used grid-gap, but now we simply use gap.</p>
+  <div class="grid-gap">
+    <div class="grid-items">1</div>
+    <div class="grid-items">2</div>
+    <div class="grid-items">3</div>
+    <div class="grid-items">4</div>
+    <div class="grid-items">5</div>
+  </div>
+  <h3>5.justify-items & align-items</h3>
+  <p>These two properties are used to control how items are positioned inside each grid cell (not the entire grid).
+
+Think of each grid box as a small container —
+justify-items and align-items decide where the content sits inside each box.</p>
+<div class="box">
+    <div class="pink">box</div>
+    <div class="pink">box</div>
+    <div class="pink">box</div>
+    <div class="pink">box</div>
+    <div class="pink">box</div>
+  </div>
+
+ </body>
+ </html>
